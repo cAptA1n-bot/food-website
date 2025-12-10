@@ -31,7 +31,21 @@
         <a href="#order">order</a>
     </nav>
 
+    <!-- Auth & Cart Icons -->
+    <div class="header-icons">
+        <button id="cartBtn" class="icon-btn" title="Shopping Cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount" class="cart-badge">0</span>
+        </button>
+        <button id="authBtn" class="icon-btn" title="Login/Profile">
+            <i class="fas fa-user"></i>
+        </button>
+    </div>
+
 </header>
+
+<!-- Modals Container -->
+<div id="modalsContainer"></div>
 
 <!-- header section ends -->
 
@@ -125,7 +139,7 @@
     <div class="box-container">
 
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;150 </span>
             <img src="images/p-1.jpg" alt="">
             <h3>tasty burger</h3>
             <div class="stars">
@@ -135,10 +149,10 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="tasty burger" data-price="150" data-image="images/p-1.jpg">add to cart</button>
         </div>
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;180 </span>
             <img src="images/p-2.jpg" alt="">
             <h3>tasty cakes</h3>
             <div class="stars">
@@ -148,10 +162,10 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="tasty cakes" data-price="180" data-image="images/p-2.jpg">add to cart</button>
         </div>
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;120 </span>
             <img src="images/p-3.jpg" alt="">
             <h3>tasty sweets</h3>
             <div class="stars">
@@ -161,10 +175,10 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="tasty sweets" data-price="120" data-image="images/p-3.jpg">add to cart</button>
         </div>
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;140 </span>
             <img src="images/p-4.jpg" alt="">
             <h3>tasty cupcakes</h3>
             <div class="stars">
@@ -174,10 +188,10 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="tasty cupcakes" data-price="140" data-image="images/p-4.jpg">add to cart</button>
         </div>
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;80 </span>
             <img src="images/p-5.jpg" alt="">
             <h3>cold drinks</h3>
             <div class="stars">
@@ -187,10 +201,10 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="cold drinks" data-price="80" data-image="images/p-5.jpg">add to cart</button>
         </div>
         <div class="box">
-            <span class="price"> &#8377;50 - &#8377;200 </span>
+            <span class="price"> &#8377;100 </span>
             <img src="images/p-6.jpg" alt="">
             <h3>cold ice-cream</h3>
             <div class="stars">
@@ -200,7 +214,7 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <button class="btn add-to-cart-btn" data-food="cold ice-cream" data-price="100" data-image="images/p-6.jpg">add to cart</button>
         </div>
 
     </div>

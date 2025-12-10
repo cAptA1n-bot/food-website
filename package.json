@@ -1,0 +1,21 @@
+{
+  "name": "food-website",
+  "version": "2.0.0",
+  "description": "Full stack food website with authentication, cart, and orders",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["food", "restaurant", "ecommerce"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
